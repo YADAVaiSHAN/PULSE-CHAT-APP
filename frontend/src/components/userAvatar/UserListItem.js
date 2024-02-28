@@ -1,9 +1,9 @@
 import { Avatar } from "@chakra-ui/avatar";
 import {  Text, Box } from "@chakra-ui/layout";
-import { ChatState } from "../../Context/ChatProvider"; //comments
+//import { ChatState } from "../../Context/ChatProvider"; //comments
 
-const UserListItem = ({ name, email, avatar,  handleFunction }) => {
-  const { user } = ChatState(); // comments
+const UserListItem = ({ user,  handleFunction }) => {
+  //const { user } = ChatState(); // comments
  //const { name, email, avatar } = props;
   return (
     <Box
@@ -27,14 +27,14 @@ const UserListItem = ({ name, email, avatar,  handleFunction }) => {
         mr={2}
         size="sm"
         cursor="pointer"
-        name={name}
-        src={avatar}
+        name={user.name}
+        src={user.pic}
       />
       <Box>
-        <Text>{name}</Text>
+        <Text>{user.name}</Text>
         <Text fontSize="xs">
           <b>Email : </b>
-          {email}
+          {user.email}
         </Text>
       </Box>
     </Box>

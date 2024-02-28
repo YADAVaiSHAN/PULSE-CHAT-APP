@@ -17,7 +17,7 @@ import {
   DrawerOverlay,
 } from "@chakra-ui/modal";
 import { Tooltip } from "@chakra-ui/tooltip";
-import { BellIcon, ChevronDownIcon } from "@chakra-ui/icons";
+import { ChevronDownIcon } from "@chakra-ui/icons"; //bellicon removed
 import { Avatar } from "@chakra-ui/avatar";
 import { useHistory } from "react-router-dom";
 import { useState } from "react";
@@ -54,6 +54,7 @@ function SideDrawer() {
   const logoutHandler = () => {
     localStorage.removeItem("userInfo");
     history.push("/");
+     window.location.reload();
   };
 
   const handleSearch = async () => {
@@ -123,9 +124,10 @@ function SideDrawer() {
   };
 
   return (
-    <>
+    <div >
+
       <Box
-        d="flex"
+        display="flex"
         justifyContent="space-between"
         alignItems="center"
         bg="white"
@@ -141,7 +143,7 @@ function SideDrawer() {
             </Text>
           </Button>
         </Tooltip>
-        <Text fontSize="2xl" fontFamily="Work sans">
+        <Text fontSize="2xl" fontWeight={"bold"} fontFamily="Work sans">
           PULSE
         </Text>
         <div>
@@ -153,7 +155,7 @@ function SideDrawer() {
                 effect={Effect.SCALE}
               />
   */}
-              <BellIcon fontSize="2xl" m={1} />
+              {/* <BellIcon fontSize="2xl" m={1} /> */}
             </MenuButton>
             <MenuList pl={2}>
               {!notification.length && "No New Messages"}
@@ -221,7 +223,7 @@ function SideDrawer() {
           </DrawerBody>
         </DrawerContent>
       </Drawer>
-    </>
+    </div>
   );
 }
 

@@ -36,7 +36,7 @@ const MyChats = ({ fetchAgain }) => {
         isClosable: true,
         position: "bottom-left",
       });
-    }
+    }      
   };
 
   useEffect(() => {
@@ -47,6 +47,8 @@ const MyChats = ({ fetchAgain }) => {
 
   return (
     <Box
+      h="90%"
+      //maxHeight="900px"
       d={{ base: selectedChat ? "none" : "flex", md: "flex" }}
       flexDir="column"
       alignItems="center"
@@ -57,7 +59,7 @@ const MyChats = ({ fetchAgain }) => {
       borderWidth="1px"
     >
       <Box
-        pb={3}
+        pb={3} 
         px={3}
         fontSize={{ base: "28px", md: "30px" }}
         fontFamily="Work sans"
@@ -65,6 +67,7 @@ const MyChats = ({ fetchAgain }) => {
         w="100%"
         justifyContent="space-between"
         alignItems="center"
+        fontWeight={"bold"}
       >
         My Chats
         <GroupChatModal>
@@ -83,7 +86,7 @@ const MyChats = ({ fetchAgain }) => {
         p={3}
         bg="#F8F8F8"
         w="100%"
-        h="100%"
+        h="90%"
         borderRadius="lg"
         overflowY="hidden"
       >

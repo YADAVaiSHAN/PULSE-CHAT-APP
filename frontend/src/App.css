@@ -3,7 +3,7 @@
 .App {
     min-height: 100vh; /*100vh*/
     display: flex;
-    background-image: url("./wp4410743.png");
+    background-image: url("./rejectedmulti.gif");
     background-size: cover;                 /*COVER*/
     background-position:center; /*CENTRE*/
 }

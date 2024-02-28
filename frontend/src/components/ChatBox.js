@@ -3,11 +3,13 @@ import "./styles.css";
 import SingleChat from "./SingleChat";
 import { ChatState } from "../Context/ChatProvider";
 
-const Chatbox = ({ fetchAgain, setFetchAgain }) => {
+const Chatbox = ({  fetchAgain, setFetchAgain }) => {
   const { selectedChat } = ChatState();
 
   return (
-    <Box
+    <Box 
+      h="90%"
+      //maxHeight="900px"
       d={{ base: selectedChat ? "flex" : "none", md: "flex" }}
       alignItems="center"
       flexDir="column"
@@ -17,7 +19,7 @@ const Chatbox = ({ fetchAgain, setFetchAgain }) => {
       borderRadius="lg"
       borderWidth="1px"
     >
-      <SingleChat fetchAgain={fetchAgain} setFetchAgain={setFetchAgain} />
+      <SingleChat  fetchAgain={fetchAgain} setFetchAgain={setFetchAgain} />
     </Box>
   );
 };
