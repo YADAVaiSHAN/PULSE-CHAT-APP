@@ -1,21 +1,36 @@
 This is how our web based MERN chat system looks!
 
 This is how our login page looks!
-![login page](https://github.com/user-attachments/assets/41cb3ad3-57d9-4280-aff4-4cf6856d6aa2)
+
+https://github.com/user-attachments/assets/4c8f0e65-69cd-44a5-be7e-f11b12455c2f
+
 
 This is the Sign-up/Registration page!
-![reg page](https://github.com/user-attachments/assets/3c3a673c-deb6-467f-9e43-84f8f646272e)
+
+https://github.com/user-attachments/assets/dbb8669c-d0fe-4369-9c38-f2778c331c2f
+
+
 
 This is the Chatting page!
-![chatting](https://github.com/user-attachments/assets/501b1379-4f77-47c8-a110-ef5334ba0fd4)
+
+https://github.com/user-attachments/assets/025624ca-ea9d-40c9-856f-41cf22009d34
+
 
 Searching Users!
-![search user](https://github.com/user-attachments/assets/3700fa45-238d-4be2-886f-59b58f5baac9)
+
+https://github.com/user-attachments/assets/d2ab1fb2-9748-4b80-8697-abfa91269fb2
+
+
 
 Group Chats Creation!
-![create grp chat](https://github.com/user-attachments/assets/ae54d13f-469c-4f28-8bd0-ed5f073a2cc7)
+
+https://github.com/user-attachments/assets/2cc06d8c-1bdb-4b66-bdf6-25a5b2c0c301
+
+
 
 Animated profile for the very first time!
-![desktop pic](https://github.com/user-attachments/assets/8c8db01c-cf51-4ae7-91f7-93b9483f2a1f)
+
+https://github.com/user-attachments/assets/a3d22b92-4a81-4b80-854f-d42cc963c38c
+
 
 
